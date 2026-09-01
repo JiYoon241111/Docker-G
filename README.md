@@ -127,3 +127,6 @@ docker compose exec db psql -U appuser -d appdb -c "SELECT * FROM memos;"
 | `init.sql`을 고쳤는데 반영이 안 됨 | 최초 1회만 실행됩니다. `docker compose down -v` 후 다시 up |
 | back 빌드가 너무 오래 걸림 | 첫 빌드는 Gradle 의존성 다운로드로 원래 오래 걸립니다 |
 | 파일을 고쳐도 반영 안 됨 | 볼륨 마운트가 있는지 (`api`, `front`만 있음) 확인 |
+
+
+34skn 3nd 1team
